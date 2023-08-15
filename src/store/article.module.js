@@ -24,7 +24,8 @@ import {
   SET_COMMENTS,
   TAG_ADD,
   TAG_REMOVE,
-  UPDATE_ARTICLE_IN_LIST
+  UPDATE_ARTICLE_IN_LIST,
+  UPDATE_USERS
 } from "./mutations.type";
 
 const initialState = {
