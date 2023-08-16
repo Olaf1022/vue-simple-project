@@ -15,6 +15,14 @@ export default {
   components: {
     RwvHeader,
     RwvFooter
+  },
+  method:{
+    Alert(){
+      alert("You are the best");
+    },
+    MessageShow(req){
+      console.log(req);
+    }
   }
 };
 </script>
