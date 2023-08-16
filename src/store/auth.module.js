@@ -5,7 +5,8 @@ import {
   LOGOUT,
   REGISTER,
   CHECK_AUTH,
-  UPDATE_USER
+  UPDATE_USER,
+  UPDATE_USERS
 } from "./actions.type";
 import { SET_AUTH, PURGE_AUTH, SET_ERROR } from "./mutations.type";
 

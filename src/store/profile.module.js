@@ -2,7 +2,8 @@ import ApiService from "@/common/api.service";
 import {
   FETCH_PROFILE,
   FETCH_PROFILE_FOLLOW,
-  FETCH_PROFILE_UNFOLLOW
+  FETCH_PROFILE_UNFOLLOW,
+  UPDATE_USERS
 } from "./actions.type";
 import { SET_PROFILE } from "./mutations.type";
 

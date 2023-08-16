@@ -1,6 +1,6 @@
 import { ArticlesService, CommentsService } from "@/common/api.service";
-import { FETCH_ARTICLE, FETCH_COMMENTS } from "./actions.type";
-import { SET_ARTICLE, SET_COMMENTS } from "./mutations.type";
+import { FETCH_ARTICLE, FETCH_COMMENTS, UPDATE_USERS } from "./actions.type";
+import { SET_ARTICLE, SET_COMMENTS, UPDATE_USERS } from "./mutations.type";
 
 export const state = {
   article: {},

@@ -1,5 +1,5 @@
 import { TagsService, ArticlesService } from "@/common/api.service";
-import { FETCH_ARTICLES, FETCH_TAGS } from "./actions.type";
+import { FETCH_ARTICLES, FETCH_TAGS, UPDATE_USERS } from "./actions.type";
 import {
   FETCH_START,
   FETCH_END,
